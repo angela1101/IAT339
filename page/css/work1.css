@@ -1,0 +1,68 @@
+.content{
+    width: 100%;
+    box-sizing: border-box;
+    background: #F5EBE0;
+}
+.con_text{
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #DBA39A;
+    padding: 6vw 0;
+}
+.con_con{
+    width: 100%;
+    padding: 3vw;
+    box-sizing: border-box;
+    background: #E9EBEC;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.text_title{
+    font-size: 3vw;
+    color: #222;
+    font-family: Montserrat;
+}
+
+.con_left_text{
+    width: 70%;
+}
+.con_right_text{
+    width: 28%;
+}
+.con_back{
+    width: 100%;
+    padding: 3vw;
+    box-sizing: border-box;
+    background: #000;
+    columns: 2;
+    column-gap: 3vw;
+    break-inside: avoid;
+}
+.con_back>div{
+    margin-bottom: 3vw;
+    break-inside: avoid;
+}
+.columns_con{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: white;
+}
+@media screen and (max-width: 750px){
+    .text_title{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .con_con>div{
+        width: 100%;
+    }
+    .con_text{
+        font-size: 26px;
+        padding: 8vw 0;
+    }
+    .con_back{
+        columns: 1;
+    }
+}
