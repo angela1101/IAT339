@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    src: url("../font/JosefinSans-VariableFont_wght.ttf");
+    font-family: JosefinSans;
+}
+@font-face {
+    src: url("../font/Montserrat-Italic-VariableFont_wght.ttf");
+    font-family: Montserrat-Italic;
+}
+@font-face {
+    src: url("../font/Montserrat-VariableFont_wght.ttf");
+    font-family: Montserrat;
+}
+a{
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 20px;
+    background: #F0DBDB;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px solid #DBA39A;
+    transition: all 0.3s;
+}
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav a{
+    margin-left: 20px;
+    font-family: 'Orbitron', sans-serif;
+    color: black;
+    transition: all 0.3s;
+}
+nav a:hover{
+    color: #707070;
+}
+.con{
+    width: 100%;
+    background: #F5EBE0;
+    padding: 3vw 0;
+}
+img{
+    width: 100%;
+    display: block;
+}
+
+.title{
+    font-size: 30px;
+    font-family: Impact;
+    margin-bottom: 20px;
+}
+.text{
+    font-size: 18px;
+    font-family: Montserrat;
+    line-height: 180%;
+}
+.sm_title{
+    font-family: Impact;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.sm_text{
+    font-size: 16px;
+    font-family: Montserrat;
+}
+footer{
+    width: 100%;
+    padding: 2vw 0;
+    background: #222222;
+    color: white;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.logo{
+    width: 150px;
+}
+@media screen and (max-width: 750px){
+    header{
+        display: block;
+    }
+    header>div{
+        margin:0 auto 10px auto;
+    }
+    nav{
+        width: 100%;
+        justify-content: center;
+    }
+    nav a{
+        font-size: 14px;
+    }
+    .title{
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .text{
+        font-size: 14px;
+    }
+    .sm_title{
+        font-size: 18px;
+    }
+    .sm_text{
+        font-size: 14px;
+    }
+    footer{
+        padding: 4vw 0;
+    }
+}

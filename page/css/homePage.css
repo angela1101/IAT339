@@ -1,0 +1,237 @@
+.back{
+    width: 100%;
+    height: 60vh;
+    /*background: url("../img/img5.png") no-repeat;*/
+    /*background-size: 100% auto;*/
+    /*background-position: top;*/
+    position: relative;
+    background: #F0DBDB;
+}
+.back_title{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 7vw;
+    font-family: 'Do Hyeon', sans-serif;
+    color: #DBA39A;
+}
+.con1{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    
+    padding: 3vw 0;
+    overflow: hidden;
+}
+.con1>div{
+    width: 48%;
+}
+.con1>div>a{
+    display: block;
+    height: 600px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+.con1>div>a>img{
+    width: 120%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.6s;
+}
+.con1>div>a>img:hover{
+    width: 130%;
+}
+.con2{
+    width: 80%;
+    padding: 3vw 0;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.con2>div{
+    width: 32%;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+.con2>div>div{
+    width: 100%;
+}
+.con2_1{
+    width: 100%;
+    height: 300px;
+    background: url("../img/img2.png") no-repeat;
+    background-size: 200%;
+    background-position: center;
+    backface-visibility: hidden;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.con2_1:hover{
+    background-size: 250%;
+}
+.con2_2{
+    width: 100%;
+    height: 300px;
+    background: url("../img/img3.png") no-repeat;
+    background-size: 200%;
+    background-position: center;
+    backface-visibility: hidden;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.con2_2:hover{
+    background-size: 250%;
+}
+.con2_3{
+    width: 100%;
+    height: 300px;
+    background: url("../img/img4.png") no-repeat;
+    background-size: 200%;
+    background-position: center;
+    backface-visibility: hidden;
+    transition: all 0.3s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.con2_3:hover{
+    background-size: 250%;
+}
+.works_title{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 4vw;
+    padding-bottom: 50px;
+    font-family: Impact;
+    text-shadow: 0 0 5px #5F6368;
+    color: white;
+}
+.con3{
+    width: 80%;
+    padding:0 0 3vw 0;
+    margin: auto;
+}
+.con3>div{
+    width: 100%;
+}
+.con3_img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    grid-gap: 40px;
+    margin-top: 10px;
+}
+.con3_img>div{
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.con3_img>div>img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.con3_img>div>img:hover{
+    height: 120%;
+}
+.mark{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background: rgba(0,0,0,0.5);
+    display: none;
+}
+.close{
+    left: 50%;
+    bottom: 10%;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 24px;
+    position: absolute;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+.close:hover{
+    background: white;
+    color: black;
+}
+.mark_img{
+    width: 33%;
+    margin: 30px auto 0 auto;
+}
+.con_text{
+    width: 95%;
+    margin: auto;
+    font-family: Montserrat;
+    line-height: 180%;
+}
+.text_title{
+    font-family: Montserrat;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+@media screen and (max-width: 750px){
+    .back{
+        height: 30vh;
+    }
+    .con1,.con2,.con3{
+        width: 95%;
+    }
+    .con1>div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .con1>div>a{
+        height: 250px;
+    }
+    .con2>div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .con3_img{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+    }
+    .con3_img>div{
+        height: 150px;
+    }
+    .mark_img{
+        width: 80%;
+    }
+    .back_title{
+        font-size: 6vw;
+    }
+    .con_text{
+        font-size: 14px;
+    }
+    .text_title{
+        font-size: 16px;
+    }
+}
