@@ -4,16 +4,16 @@
     box-sizing: border-box;
 }
 @font-face {
-    src: url("../font/JosefinSans-VariableFont_wght.ttf");
-    font-family: JosefinSans;
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap');
+    font-family: 'Raleway', sans-serif;
 }
 @font-face {
-    src: url("../font/Montserrat-Italic-VariableFont_wght.ttf");
-    font-family: Montserrat-Italic;
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap');
+    font-family: 'Raleway', sans-serif;
 }
 @font-face {
-    src: url("../font/Montserrat-VariableFont_wght.ttf");
-    font-family: Montserrat;
+    src: url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;1,300&display=swap');
+    font-family: 'Raleway', sans-serif;
 }
 a{
     text-decoration: none;
@@ -37,7 +37,7 @@ nav{
 }
 nav a{
     margin-left: 20px;
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: black;
     transition: all 0.3s;
 }
@@ -46,7 +46,7 @@ nav a:hover{
 }
 .con{
     width: 100%;
-    background: #F5EBE0;
+    background: #FCFAFA;
     padding: 3vw 0;
 }
 img{
@@ -61,7 +61,7 @@ img{
 }
 .text{
     font-size: 18px;
-    font-family: Montserrat;
+    font-family: 'Raleway', sans-serif;
     line-height: 180%;
 }
 .sm_title{
@@ -71,7 +71,7 @@ img{
 }
 .sm_text{
     font-size: 16px;
-    font-family: Montserrat;
+    font-family: 'Raleway', sans-serif;
 }
 footer{
     width: 100%;

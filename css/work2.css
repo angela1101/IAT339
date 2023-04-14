@@ -3,12 +3,36 @@
     box-sizing: border-box;
     background: #F5EBE0;
 }
+
 .con_text{
     text-align: center;
-    font-size: 3vw;
-    font-family: 'Do Hyeon', sans-serif;
-    color: #DBA39A;
     padding: 6vw 0;
+}
+.con_text>div{
+    width: 60%;
+
+    text-align: center;
+}
+.con_title{
+    font-size: 3vw;
+    margin: 3vw;
+    padding-bottom: 3vw;
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+}
+.con_text_con{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    margin: 20px auto 0 auto;
+    padding-bottom: 4vw;
+
+}
+
+.imgimg {
+    width: 100%;
+    margin: 20px auto 0 auto;
+    display: flex;
+    padding-bottom: 3vw;
 }
 .con_con{
     width: 100%;
@@ -22,21 +46,14 @@
 .text_title{
     font-size: 3vw;
     color: #222;
-    font-family: Montserrat;
-}
-
-.con_left_text{
-    width: 70%;
-}
-.con_right_text{
-    width: 28%;
+    font-family: 'Raleway', sans-serif;
 }
 .con_back{
     width: 100%;
     padding: 3vw;
     box-sizing: border-box;
     background: #000;
-    columns: 2;
+    columns: 3;
     column-gap: 3vw;
     break-inside: avoid;
 }
@@ -55,14 +72,15 @@
         font-size: 20px;
         font-weight: 600;
     }
-    .con_con>div{
-        width: 100%;
-    }
-    .con_text{
-        font-size: 26px;
-        padding: 8vw 0;
-    }
     .con_back{
         columns: 1;
+    }
+    .con_title{
+        font-size: 26px;
+        width: 90% !important;
+    }
+    .con_text_con{
+        font-size: 14px;
+        width: 90% !important;
     }
 }

@@ -1,27 +1,18 @@
 .content{
     width: 100%;
     box-sizing: border-box;
-    background: #F5EBE0;
+    background: url("../img/img5.png") no-repeat;
+    background-size: 100% auto;
+    background-position: top;
+    position: relative;
 }
-
 .con_text{
     text-align: center;
+    font-size: 4vw;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: white;
     padding: 6vw 0;
-}
-.con_text>div{
-    width: 60%;
-
-    text-align: center;
-}
-.con_title{
-    font-size: 3vw;
-    font-family: Montserrat;
-    margin: auto;
-}
-.con_text_con{
-    font-size: 16px;
-    font-family: Montserrat;
-    margin: 20px auto 0 auto;
 }
 .con_con{
     width: 100%;
@@ -37,12 +28,19 @@
     color: #222;
     font-family: Montserrat;
 }
+
+.con_left_text{
+    width: 70%;
+}
+.con_right_text{
+    width: 28%;
+}
 .con_back{
     width: 100%;
     padding: 3vw;
     box-sizing: border-box;
     background: #000;
-    columns: 3;
+    columns: 2;
     column-gap: 3vw;
     break-inside: avoid;
 }
@@ -61,15 +59,14 @@
         font-size: 20px;
         font-weight: 600;
     }
+    .con_con>div{
+        width: 100%;
+    }
+    .con_text{
+        font-size: 26px;
+        padding: 8vw 0;
+    }
     .con_back{
         columns: 1;
-    }
-    .con_title{
-        font-size: 26px;
-        width: 90% !important;
-    }
-    .con_text_con{
-        font-size: 14px;
-        width: 90% !important;
     }
 }

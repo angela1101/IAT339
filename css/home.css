@@ -1,0 +1,83 @@
+body{
+    background: url("../img/angela.png") no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.home_text{
+    width: 100%;
+    font-size: 6vw;
+    text-align: center;
+    font-family: Impact;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 25%;
+}
+
+.homebio_text{
+    width: 100%;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+    font-weight: medium;
+    color: white;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 40%;
+}
+.home_btn{
+    left: 50%;
+    top: 60%;
+    width: 180px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-size: 24px;
+    position: absolute;
+    transform: translateX(-50%);
+    cursor: pointer;
+    transition: all 0.3s;
+    font-family: 'Raleway', sans-serif;
+}
+.home_btn:hover{
+    background: white;
+    color: black;
+}
+@media screen and (max-width: 750px){
+    .home_text{
+        width: 100%;
+        font-size: 30px;
+        text-align: center;
+        font-family: Impact;
+        color: white;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 40%;
+    }
+    .home_btn{
+        left: 50%;
+        top: 50%;
+        width: 130px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        border: 2px solid white;
+        border-radius: 5px;
+        font-size: 16px;
+        position: absolute;
+        transform: translateX(-50%);
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+}
